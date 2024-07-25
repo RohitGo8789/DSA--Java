@@ -163,20 +163,20 @@ static public class ListNode {
 
 public static   ListNode head;
 public static ListNode tail;
-public static boolean reverse(){  //O(n)
-    ListNode prev  = null;
-    ListNode curr = tail= head;
-    ListNode next;
+// public static boolean reverse(){  //O(n)
+//     ListNode prev  = null;
+//     ListNode curr = tail= head;
+//     ListNode next;
 
-    while(curr!=null){
-        next = curr.next;
-        curr.next = prev;
-        prev = curr;
-        curr = next;
-    }
+//     while(curr!=null){
+//         next = curr.next;
+//         curr.next = prev;
+//         prev = curr;
+//         curr = next;
+//     }
 
-    head = prev;
-} 
+//     head = prev;
+// } 
 // public ListNode removeNodes(ListNode head) {
 //     reverse();
 // }
@@ -188,7 +188,7 @@ public static void main(String args[]){
     head.next.next.next = temp;
     //1->2->3->2
 
-    System.out.println(reverse());
+    // System.out.println(reverse());
 
 }
   
