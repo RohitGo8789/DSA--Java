@@ -9,8 +9,6 @@ public class QuickSort {
         int pIdx = partition(arr, si, ei);
         quickSort(arr, si, pIdx-1); //left part sorted
         quickSort(arr, pIdx+1, ei); //right part sorted
-        
-
     }
 
     public static int partition(int arr[], int si, int ei){
