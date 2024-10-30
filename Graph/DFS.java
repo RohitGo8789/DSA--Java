@@ -1,4 +1,8 @@
 import java.util.ArrayList;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 743f429b756e169d2914c5ff15f09b13f37c88d4
 public class DFS {
      public static void dfs(int node, boolean[] vis, ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> list){
         vis[node] = true;
@@ -10,7 +14,13 @@ public class DFS {
             }
         }
     }
+<<<<<<< HEAD
     public static ArrayList<Integer> dfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
+=======
+    // Function to return a list containing the DFS traversal of the graph.
+    public ArrayList<Integer> dfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
+        // Code here
+>>>>>>> 743f429b756e169d2914c5ff15f09b13f37c88d4
         boolean vis[] = new boolean[adj.size()];
         vis[0] = true;
         ArrayList<Integer> list = new ArrayList<>();
@@ -20,6 +30,7 @@ public class DFS {
         return list;
     }
     public static void main(String[] args) {
+<<<<<<< HEAD
         ArrayList < ArrayList < Integer >> adj = new ArrayList < > ();
         for (int i = 0; i < 5; i++) {
             adj.add(new ArrayList < > ());
@@ -40,4 +51,8 @@ public class DFS {
         }
     }
     
+=======
+        
+    }
+>>>>>>> 743f429b756e169d2914c5ff15f09b13f37c88d4
 }

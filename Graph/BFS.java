@@ -3,7 +3,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BFS {
+<<<<<<< HEAD
      public static ArrayList<Integer> bfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
+=======
+     public ArrayList<Integer> bfsOfGraph(ArrayList<ArrayList<Integer>> adj) {
+>>>>>>> 743f429b756e169d2914c5ff15f09b13f37c88d4
         // code here
         ArrayList<Integer> bfs = new ArrayList<>();
         boolean vis[] = new boolean[adj.size()];
@@ -26,6 +30,7 @@ public class BFS {
         return bfs;
     }
     public static void main(String[] args) {
+<<<<<<< HEAD
         ArrayList < ArrayList < Integer >> adj = new ArrayList < > ();
         for (int i = 0; i < 5; i++) {
             adj.add(new ArrayList < > ());
@@ -49,3 +54,8 @@ public class BFS {
     
 }
 
+=======
+        
+    }
+}
+>>>>>>> 743f429b756e169d2914c5ff15f09b13f37c88d4
